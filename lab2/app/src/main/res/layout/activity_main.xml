@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCustom"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            app:srcCompat="@drawable/login" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textAlignment="center"
+            android:textColor="#eff1f4"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/fields"
+            android:ems="10"
+            android:hint="@string/email_field"
+            android:inputType="textEmailAddress"
+            android:padding="15sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/fields"
+            android:ems="10"
+            android:hint="@string/password_field"
+            android:inputType="textPassword"
+            android:padding="15sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:background="@drawable/button"
+            android:fontFamily="monospace"
+            android:text="@string/signIn_field"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

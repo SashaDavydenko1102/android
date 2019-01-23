@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Третья лекция</string>
+
+    <string name="main_title">Авторизация</string>
+    <string name="email_field">Почта</string>
+    <string name="password_field">Пароль</string>
+    <string name="signIn_field">Войти</string>
+</resources>
